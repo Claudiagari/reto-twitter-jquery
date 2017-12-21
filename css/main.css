@@ -1,0 +1,109 @@
+/*Dando estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    background-image: url(../assets/images/bicicleta.jpg);
+    background-size: 100%;
+}
+.capital-letter{
+    text-transform: uppercase;
+}
+/*Titulo*/
+h1{
+    text-align: center;
+    color:#fff;
+    background: #4AB3F4;
+    height:60px;
+    font-size:54px;
+}
+/* Primera parte de presentación*/
+.container{
+    background: #fff;
+    display: inline-block;
+    margin: 20px;
+    line-height: 40px;
+    padding:50px; 
+    border-radius: 5px;
+}
+.container h2{
+    font-size: 28px;
+}
+.container h4 {
+    border-top: 1px solid gray;
+    font-size: 28px;
+    margin-top: 25px;
+    padding-top: 15px;
+    color: blue;
+}
+/*Formulario*/
+.news{
+    display: inline-block;
+    background: #fff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+button{
+    display:inline-block;
+    background:#4AB3F4;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Inconsolata', monospace;
+    font-weight:700;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+}
+button:hover {
+    background-color:#006dbf;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:active{
+    border-radius: 5px;
+    background-color:#006dbf;;
+}
+button:disabled,button[disabled]{
+  background-color: #4AB3F4;
+  color: #fff;
+  opacity: 0.3;
+}
+textarea{
+    border: none;
+    border-bottom: 2px solid #006dbf;
+    font-size: 24px;
+    width: 700px;
+    height:100px ;
+    margin:0px 0px;
+    padding:5px;
+    line-height:35px;
+    overflow:hidden;
+    margin:0px auto;    
+}
+textarea:focus{
+	outline:0px;
+}
+#number{
+    width: 200px;
+    height: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size:28px;
+    font-weight: 700;
+}
+/*Estilo para el nuevo div contenedor*/
+.story{
+    background:white;
+    margin: 50px 20px;
+    padding:20px;
+    border-radius:5px;
+    font-size: 18px;
+    word-wrap: break-word
+}
